@@ -4,7 +4,7 @@ public class OrdinaRunnable implements Runnable {
 	
 	private int[] array;
 	
-	
+	// Commento Prova
 	public Ordina(int[] array) {
 		this.array = array;
 	}
