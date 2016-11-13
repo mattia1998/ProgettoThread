@@ -17,7 +17,7 @@ public class MainClass {
 			uno.join();
 		} catch(InterruptedException e) {
 			System.err.println(e.toString());
-			Thread.yield();
+			// Thread.yield();
 		}
 		
 		System.out.println("\n\n ARRAY ORDINATO : ");
@@ -34,6 +34,7 @@ public class MainClass {
 		return array;
 	}
 	
+	// Stampa i valori all'interno dell'array
 	static void stampaArray(int[] array) {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println("\t"+array[i]);
