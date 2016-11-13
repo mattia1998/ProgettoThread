@@ -17,7 +17,7 @@ public class MainClass {
 			uno.join();
 		} catch(InterruptedException e) {
 			System.err.println(e.toString());
-			Thread.yield();
+			// Thread.yield();
 		}
 		
 		System.out.println("\n\n ARRAY ORDINATO : ");
